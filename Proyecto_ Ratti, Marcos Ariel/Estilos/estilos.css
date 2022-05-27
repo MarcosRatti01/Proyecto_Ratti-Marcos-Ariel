@@ -258,7 +258,7 @@ body{
 
 
 .nosotross{
-    background-color: rgb(235, 205, 253);
+background-image: linear-gradient(to top,rgba(178, 137, 255, 0.8) 0,rgba(244, 239, 253, 0.5) 40%,rgba(238, 230, 253, 0.5) 75%,rgba(178, 137, 255, 0.8) 100%);
 }
 
 .titulo__principal{
@@ -320,7 +320,7 @@ body{
 
 
 .productoss{
-    background-color: rgb(235, 205, 253);
+    background-image: linear-gradient(to top,rgba(178, 137, 255, 0.8) 0,rgba(244, 239, 253, 0.5) 40%,rgba(238, 230, 253, 0.5) 75%,rgba(178, 137, 255, 0.8) 100%);
 }
 .productos__imagen__1{
     width: 300px;
@@ -357,7 +357,7 @@ body{
 
 
 .carritoo{
-    background-color: rgb(125, 125, 128); 
+    background-image: linear-gradient(to top,rgba(178, 137, 255, 0.8) 0,rgba(244, 239, 253, 0.5) 40%,rgba(238, 230, 253, 0.5) 75%,rgba(178, 137, 255, 0.8) 100%);
 }
 .carrito__imagen{
     opacity: 0.6;
@@ -436,58 +436,6 @@ body{
 
 
 
-.iniciarsesionn{
-    background-color: rgb(125, 125, 128); 
-}
-.iniciarsesion__imagenfondo__1{
-    height: 500px;
-    width: 500px;
-    margin-left: 36.80%;
-    margin-top: 40px;
-    opacity: 0.5;
-    border: 4px solid blueviolet;
-}
-.iniciarsesion__usuario__1{
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 375px;
-}
-.iniciarsesion__contraseña__1{
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 255px;
-}
-.iniciarsesion__olvidar__1{
-    font-size: 15px;
-    margin-left: 46.5%;
-    position: relative;
-    bottom: 215px;
-}
-.iniciarsesion__boton__1{
-    width: 100px;
-    height: 90px;
-    position: relative;
-    left: 47.5%;
-    bottom: 175px;
-}
-.iniciarsesion__casillero111{
-    font-size: 20px;
-    text-align: center;
-    margin-left: 43.5%;
-    position: relative;
-    bottom: 500px;
-}
-.iniciarsesion__casillero222{
-    font-size: 20px;
-    text-align: center;
-    margin-left: 43.5%;
-    position: relative;
-    bottom: 385px;
-}
-
-
 
 
 
@@ -505,11 +453,6 @@ body{
         width: 100vw;
         height: 100vh;
     }   
-
-
-
-
-
     .cabecera{
     height: 10vh;
     }
@@ -528,6 +471,4 @@ body{
         width: 20px;
         height: 20px;
     }
-
-
 }   
