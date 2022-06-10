@@ -154,9 +154,6 @@ body {
   font-size: 25px;
   text-align: center;
 }
-.pie .contactos {
-  display: inline-block;
-}
 .pie .pie__wpp {
   margin-left: 2%;
   width: 45px;
@@ -169,7 +166,13 @@ body {
 }
 
 .nosotross {
-  background-color: rgb(235, 205, 253);
+  background-image: url(https://wallpaperaccess.com/full/1836491.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+}
+.nosotross .container {
+  display: inline-block;
 }
 .nosotross .titulo__principal {
   font-size: 50px;
@@ -192,13 +195,21 @@ body {
   font-size: 42px;
   text-align: center;
   position: relative;
-  bottom: 550px;
+  bottom: 500px;
+  text-decoration: dashed black;
+  text-shadow: 2px 2px 2px rgb(179, 83, 83);
+  color: rgb(139, 133, 122);
 }
 .nosotross .ubicacion__texto1 {
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   position: relative;
   bottom: 450px;
+  margin-left: 28%;
+  text-decoration: dashed black;
+  text-shadow: 2px 2px 2px rgb(179, 83, 83);
+  color: rgb(139, 133, 122);
+  width: 800px;
 }
 .nosotross .trabajo__imagen1 {
   position: relative;
@@ -211,17 +222,27 @@ body {
   font-size: 42px;
   text-align: center;
   position: relative;
-  bottom: 425px;
+  bottom: 375px;
+  text-decoration: dashed black;
+  text-shadow: 2px 2px 2px rgb(179, 83, 83);
+  color: rgb(139, 133, 122);
 }
 .nosotross .trabajo__texto1 {
-  font-size: 10px;
+  width: 800px;
   text-align: center;
   position: relative;
   bottom: 325px;
+  margin-left: 28%;
+  text-decoration: dashed black;
+  text-shadow: 2px 2px 2px rgb(179, 83, 83);
+  color: rgb(139, 133, 122);
+  font-size: 20px;
 }
 
 .productoss {
-  background-color: rgb(235, 205, 253);
+  background-image: url(https://i.pinimg.com/736x/af/97/ef/af97ef7c607be9bf58423121b4c7fc44.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .productoss .carrousel {
   width: 32%;
@@ -237,20 +258,33 @@ body {
 .productoss .productos__precios__1 {
   font-size: 40px;
   text-align: right;
+  margin-right: 4.4%;
   position: relative;
-  bottom: 600px;
+  bottom: 500px;
+  text-decoration: dashed black;
+  text-shadow: 2px 2px 2px rgb(179, 83, 83);
+  color: rgb(139, 133, 122);
 }
 .productoss .productos__ofertas__1 {
   font-size: 40px;
   position: relative;
   bottom: 225px;
+  margin-left: 4.4%;
+  text-decoration: dashed black;
+  text-shadow: 2px 2px 2px rgb(179, 83, 83);
+  color: rgb(139, 133, 122);
 }
 
 .carritoo {
-  background-color: rgb(125, 125, 128);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/884/546/non_2x/abstract-grunge-decorative-blue-dark-wall-background-dark-blue-concrete-backgrounds-with-rough-texture-dark-wallpaper-space-for-text-use-for-decorative-design-web-page-banner-frames-wallpaper-free-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 117.1vh;
+  width: 100vw;
 }
 .carritoo .carrito__imagen {
-  opacity: 0.6;
+  opacity: 0.9;
+  border-radius: 300em;
   width: 80%;
   height: 400px;
   margin-top: 70px;
@@ -261,33 +295,33 @@ body {
   width: 200px;
   height: 300px;
   position: absolute;
-  right: 77%;
+  right: 74%;
   top: 272px;
   border: 3px solid black;
 }
 .carritoo .carrito__p1 {
   font-size: 22px;
   position: relative;
-  left: 24%;
+  left: 27%;
   bottom: 350px;
 }
 .carritoo .carrito__p2 {
   font-size: 22px;
   position: relative;
-  left: 26.6%;
-  bottom: 330px;
+  left: 29.6%;
+  bottom: 357px;
 }
 .carritoo .carrito__p3 {
   font-size: 22px;
   position: relative;
   left: 80.5%;
-  bottom: 395px;
+  bottom: 435px;
 }
 .carritoo .carrito__p4 {
   font-size: 22px;
   position: relative;
-  left: 80.9%;
-  bottom: 385px;
+  left: 80.6%;
+  bottom: 447px;
 }
 .carritoo .encuesta__opciones {
   background-color: rgb(248, 247, 247);
@@ -295,7 +329,7 @@ body {
   height: 100px;
   margin-left: 200px;
   position: relative;
-  bottom: 80px;
+  bottom: 207px;
 }
 .carritoo .encuesta__opciones__pais {
   font-style: oblique;
@@ -303,98 +337,98 @@ body {
   height: 20px;
   margin-left: 50px;
   position: relative;
-  bottom: 125px;
+  bottom: 255px;
   left: 200px;
 }
 .carritoo .comprarahora {
   width: 300px;
   height: 80px;
   position: absolute;
-  right: 157.5px;
-  bottom: 80px;
+  right: 327.5px;
+  bottom: 110px;
 }
 .carritoo .calcularenvio {
   font-style: oblique;
   font-size: 24px;
   position: relative;
-  bottom: 187.5px;
+  bottom: 321.5px;
   left: 435px;
 }
 
 .iniciarsesionn {
   background-color: rgb(125, 125, 128);
 }
-.iniciarsesionn .iniciarsesion__imagenfondo__1 {
-  height: 500px;
-  width: 500px;
-  margin-left: 36.8%;
-  margin-top: 40px;
-  opacity: 0.5;
-  border: 4px solid blueviolet;
-}
-.iniciarsesionn .iniciarsesion__usuario__1 {
-  font-size: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 375px;
-}
-.iniciarsesionn .iniciarsesion__contraseña__1 {
-  font-size: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 255px;
-}
-.iniciarsesionn .iniciarsesion__olvidar__1 {
-  font-size: 15px;
-  margin-left: 46.5%;
-  position: relative;
-  bottom: 215px;
-}
-.iniciarsesionn .iniciarsesion__boton__1 {
-  width: 100px;
-  height: 90px;
-  position: relative;
-  left: 47.5%;
-  bottom: 175px;
-}
-.iniciarsesionn .iniciarsesion__casillero111 {
-  font-size: 20px;
-  text-align: center;
-  margin-left: 43.5%;
-  position: relative;
-  bottom: 500px;
-}
-.iniciarsesionn .iniciarsesion__casillero222 {
-  font-size: 20px;
-  text-align: center;
-  margin-left: 43.5%;
-  position: relative;
-  bottom: 385px;
+.iniciarsesionn .mb-3 {
+  margin-left: 50%;
 }
 
 /* medidas mobile */
-@media only screen and (min-width: 767px) and (max-width: 1200px) {
+@media (min-width: 390px) and (max-width: 844px) {
   body {
     width: 100vw;
     height: 100vh;
   }
 
   .cabecera {
-    height: 10vh;
+    height: 4.7vh;
+  }
+  .cabecera .cabecera__imagen {
+    width: 40px;
+    height: 40px;
+    margin-left: 2%;
+  }
+  .cabecera .cabecera__navegación__link {
+    font-size: 8.2px;
+    padding-left: 0%;
+    padding-top: 30px;
+    margin-left: 7px;
+    float: none;
+    display: inline;
+  }
+  .cabecera .cabecera__imagen2 {
+    width: 0px;
+    height: 0px;
   }
 
-  .cabecera__imagen {
-    width: 500px;
-    height: 500px;
+  .pie {
+    height: 18.2vh;
   }
-
-  .cabecera__navegación__link {
-    font-size: 12px;
+  .pie .pie__título {
+    font-size: 15px;
+    margin-bottom: 15px;
   }
-
-  .cabecera__imagen2 {
+  .pie .pie__wpp {
+    margin-left: 1%;
     width: 20px;
-    height: 20px;
+    height: 30px;
+  }
+  .pie .pie__ig {
+    width: 20px;
+    height: 30px;
+    margin-left: 1%;
+  }
+
+  .productoss {
+    height: 85vh;
+  }
+  .productoss .titulo__productos {
+    text-align: center;
+    margin-left: 150px;
+    text-shadow: 2px 2px 2px rgb(179, 83, 83);
+    color: rgb(139, 133, 122);
+  }
+  .productoss .carrousel {
+    width: 80%;
+    height: 2%;
+  }
+  .productoss .img {
+    height: 5rem;
+  }
+  .productoss .productos__precios__1 {
+    font-size: 0px;
+  }
+  .productoss .productos__ofertas__1 {
+    font-size: 0px;
   }
 }
 
