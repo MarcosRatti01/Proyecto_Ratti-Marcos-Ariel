@@ -3,7 +3,6 @@
 
 
 body{
-    height: 100vh;
     width: 100vw;
 }
 .main{
@@ -12,9 +11,8 @@ body{
 
 
 
-/* cabecera */
+// cabecera  
 .cabecera{
-    height: 10vh;
     background-color: rgb(234, 217, 241);
     .cabecera__imagen{
         text-shadow: 3px 3px 3px rgb(160, 158, 158);
@@ -37,7 +35,7 @@ body{
     a{
         text-shadow: 3px 3px 3px rgb(160, 158, 158);
         color:rgb(139, 133, 122);
-        padding-top: 42.66px;
+        padding-top: 30px;
         padding-left: 10px;
         text-decoration: none;
         text-align: center;
@@ -52,11 +50,44 @@ body{
     }
 }
 
+//titulo
+.titulo{
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;
+    text-decoration: dashed black;
+    text-shadow: 2px 2px 2px rgb(179, 83, 83);
+    color:rgb(139, 133, 122);
+    margin-top: 30px;
+}
+
+// pie  
+.pie{
+    background-image: url(https://imgs.search.brave.com/JoOyPHa1sPPcaId0O3hCQG0WmcrXoR4pE--GhKReWg0/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9jZG4u/aGlwd2FsbHBhcGVy/LmNvbS9pLzcvMzYv/TmlBcFZrLmpwZw);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 185px;
+    .pie__título{
+        text-shadow: 3px 3px 3px rgb(160, 158, 158);
+        padding-top: 30px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .pie__wpp{
+        margin-left: 2%;
+        width: 45px;
+        height: 45px;
+    }
+    .pie__ig{
+        margin-left: 10%;
+        width: 45px;
+        height: 45px;
+    }
+}
 
 
-
-
-/* ofertas */
+//index
 .ofertas{
     display: flex;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/1006/72/31/black-wood-hd-wallpaper-wallpaper-preview.jpg);
@@ -147,109 +178,45 @@ body{
 
 
 
-/* pie */
-.pie{
-    background-image: url(https://imgs.search.brave.com/JoOyPHa1sPPcaId0O3hCQG0WmcrXoR4pE--GhKReWg0/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9jZG4u/aGlwd2FsbHBhcGVy/LmNvbS9pLzcvMzYv/TmlBcFZrLmpwZw);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    bottom: 0px;
-    right: 0px;
-    left: 0px; 
-    height: 185px;
-    .pie__título{
-        text-shadow: 3px 3px 3px rgb(160, 158, 158);
-        padding-top: 30px;
-        font-size: 25px;
-        text-align: center;
-    }
-    .contactos{
-    }
-    .pie__wpp{
-        margin-left: 2%;
-        width: 45px;
-        height: 45px;
-    }
-    .pie__ig{
-        margin-left: 10%;
-        width: 45px;
-        height: 45px;
-    }
-}
+
 
 
 .nosotross{
-        background-image: url(https://wallpaperaccess.com/full/1836491.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 200vh;
-        .container{
-            display: inline-block;
+    background-image: url(https://wallpaperaccess.com/full/1836491.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        .ubicacion{
+            margin: 30px 6px 0px 6px;
+            display: flex;
+        .imagen{
+                margin: 40px;
+                img{
+                    width: 550px;
+                    height: 370px;
+                    border: dotted rgb(139, 133, 122) 8px;
+                }
+            }
+            .texto{
+                margin-top: 45px;
+                text-align: center;
+                text-decoration: dashed black;
+                text-shadow: 2px 2px 2px rgb(179, 83, 83);
+                color:rgb(139, 133, 122);
+                h2{
+                    text-align: center;
+                }
+                p{
+                    font-size: 35px;
+                }
+            }
         }
-    .titulo__principal{
-        font-size: 50px;
-        text-align: center;
-        position: relative;
-        top: 15px;
+        hr{
+            border: solid 2.5px rgb(160, 158, 158);
+        }
     }
-    .ubicacion__irefrime{
-        width: 800px;
-        height: 800px;
-    }
-    .ubicacion__irefrime1{
-        width: 400px;
-        height: 400px;
-        position: relative;
-        top: 200px;
-        left: 9%;
-    }
-    .ubicacion__titulo1{
-        font-size: 42px;
-        text-align: center;
-        position: relative;
-        bottom: 500px;
-        text-decoration: dashed black;
-        text-shadow: 2px 2px 2px rgb(179, 83, 83);
-        color:rgb(139, 133, 122);
-    }
-    .ubicacion__texto1{
-        font-size: 20px;
-        text-align: center;
-        position: relative;
-        bottom: 450px;
-        margin-left: 28%;
-        text-decoration: dashed black;
-        text-shadow: 2px 2px 2px rgb(179, 83, 83);
-        color:rgb(139, 133, 122);
-        width: 800px;
-    }
-    .trabajo__imagen1{
-        position: relative;
-        left: 4%;
-        bottom: 100px;
-        width: 400px;
-        height: 400px
-        
-    }
-    .trabajo__titulo1{
-        font-size: 42px;
-        text-align: center;
-        position: relative;
-        bottom: 375px;
-        text-decoration: dashed black;
-        text-shadow: 2px 2px 2px rgb(179, 83, 83);
-        color:rgb(139, 133, 122);
-    }
-    .trabajo__texto1{
-        width: 800px;
-        text-align: center;
-        position: relative;
-        bottom: 325px;
-        margin-left: 28%;
-        text-decoration: dashed black;
-        text-shadow: 2px 2px 2px rgb(179, 83, 83);
-        color:rgb(139, 133, 122);
-        font-size: 20px;
+    .pie{
+        margin-top: 400px;
     }
 }
 
@@ -260,35 +227,36 @@ body{
     background-image: url(https://i.pinimg.com/736x/af/97/ef/af97ef7c607be9bf58423121b4c7fc44.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    .carrousel{
-        width: 32%;
-        height: 25%;
-        margin: auto;
-        margin-top: 4%;
-        img{
-            width: 100%;
-            height: 36.5rem;
-            border: 2px double rgb(80, 78, 78);
+    .productos{
+        display: flex;
+        margin-bottom: 100px;
+        .productos__precios__1{
+            font-size: 40px;
+            margin-left: 50px;
+            margin-top: 180px;
+            text-decoration: dashed black;
+            text-shadow: 2px 2px 2px rgb(179, 83, 83);
+            color:rgb(139, 133, 122);
         }
-    }
-    .productos__precios__1{
-        font-size: 40px;
-        text-align: right;
-        margin-right: 4.4%;
-        position: relative;
-        bottom: 500px;
-        text-decoration: dashed black;
-        text-shadow: 2px 2px 2px rgb(179, 83, 83);
-        color:rgb(139, 133, 122);
-    }
-    .productos__ofertas__1{
-        font-size: 40px;
-        position: relative;
-        bottom: 225px;
-        margin-left: 4.4%;
-        text-decoration: dashed black;
-        text-shadow: 2px 2px 2px rgb(179, 83, 83);
-        color:rgb(139, 133, 122);
+        .carrousel{
+            width: 32%;
+            height: 25%;
+            margin: auto;
+            margin-top: 40px;
+            img{
+                width: 100%;
+                height: 36.5rem;
+                border: 2px double rgb(80, 78, 78);
+            }
+        }
+        .productos__ofertas__1{
+            margin-top: 400px;
+            font-size: 40px;
+            margin-right: 50px;
+            text-decoration: dashed black;
+            text-shadow: 2px 2px 2px rgb(179, 83, 83);
+            color:rgb(139, 133, 122);
+        }
     }
 }
 
@@ -298,91 +266,93 @@ body{
         background-image: url(https://static.vecteezy.com/system/resources/previews/001/884/546/non_2x/abstract-grunge-decorative-blue-dark-wall-background-dark-blue-concrete-backgrounds-with-rough-texture-dark-wallpaper-space-for-text-use-for-decorative-design-web-page-banner-frames-wallpaper-free-photo.jpg);
         background-repeat: no-repeat;
         background-size: cover; 
-        height: 117.1vh;
-        width: 100vw;
-        .carrito__imagen{
-        opacity: 0.9;
-        border-radius: 300em;
-        width: 80%;
-        height: 400px;
-        margin-top: 70px;
-        margin-bottom: 100px;
-        margin-left: 200px;
-    }
-    .carrito__imagen1{
-        width: 200px;
-        height: 300px;
-        position: absolute;
-        right: 74%;
-        top: 272px;
-        border: 3px solid black;
-    }
-    .carrito__p1{
-        font-size: 22px;
-        position: relative;
-        left: 27%;
-        bottom: 350px;
-    }
-    .carrito__p2{
-        font-size: 22px;
-        position: relative;
-        left: 29.6%;
-        bottom: 357px;
-    }
-    .carrito__p3{
-        font-size: 22px;
-        position: relative;
-        left: 80.5%;
-        bottom: 435px;
-    }
-    .carrito__p4{
-        font-size: 22px;
-        position: relative;
-        left: 80.6%;
-        bottom: 447px;
-    }
-    .encuesta__opciones{
-        background-color: rgb(248, 247, 247);
-        width: 600px;
-        height: 100px;
-        margin-left: 200px;
-        position: relative;
-        bottom: 207px;
-    }
-    .encuesta__opciones__pais{
-        font-style: oblique;
-        width: 90px;
-        height: 20px;
-        margin-left: 50px;
-        position: relative;
-        bottom: 255px;
-        left: 200px;
-    }
-    .comprarahora{
-        width: 300px;
-        height: 80px;
-        position: absolute;
-        right: 327.5px;
-        bottom: 110px;
-    }
-    .calcularenvio{
-        font-style: oblique;
-        font-size: 24px;
-        position: relative;
-        bottom: 321.5px;
-        left: 435px;
-    }
-}
-
-
-
-
-
-.iniciarsesionn{
-        background-color: rgb(125, 125, 128); 
-        .mb-3{
-            margin-left: 50%;
+    .fondo{   
+        background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/fondocolores.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 50%;
+        display: flex;
+        margin-left: 24%;
+        .carrito__imagen1{
+            width: 200px;
+            height: 200px;
+            margin-right: 25px;
+            border: 3px solid black;
         }
+        .primerparte{
+            flex-direction: column;
+            .fondo__primerparte__c{
+                font-size: 22px;
+                color:rgb(139, 133, 122);
+            }
+        }   
+        .segundaparte{
+            flex-direction: column;
+            .fondo__segundaparte__c{
+                font-size: 22px;
+                color:rgb(139, 133, 122);
+            }
+        }   
+        .encuesta__opciones{
+            background-color: rgb(248, 247, 247);
+            width: 600px;
+            height: 100px;
+            margin-left: 200px;
+        }
+        .encuesta__opciones__pais{
+            font-style: oblique;
+            width: 90px;
+            height: 20px;
+            margin-left: 50px;
+        }
+        .comprarahora{
+            width: 300px;
+            height: 80px;
+        }
+        .compra{
+            
+            color: whitesmoke;
+            font-size: 25px;
+            padding: 10px;
+            background-color: palevioletred;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+.iniciarSesionn{
+    background-image: url(https://i.pinimg.com/originals/7c/4a/5a/7c4a5a5ee7b7e5955007391b2ce55665.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    .inicio{
+        margin: auto;
+        margin-top: 100px;
+        width: 26%;
+        height: 640px;
+        border: rgb(110, 105, 105) dotted 15px;
+        background-color: rgb(126, 131, 134);
+        .inicios{
+            font-size: 30px;
+            .inicios{
+                input{
+                    width: 50px;
+                    height: 20px;
+                }
+                button{
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .pie{
+        margin-top: 300px;
+    }
 }
 
 
@@ -395,22 +365,19 @@ body{
 
 
 
-/* medidas mobile */
+// medidas mobile  
 @media (min-width: 390px) and (max-width: 844px) {
     body{
         width: 100vw;
-        height: 100vh;
     }   
-
     .cabecera{
-    height: 4.7vh;
         .cabecera__imagen{
             width: 40px;
-            height: 40px;
+            height: 48px;
             margin-left: 2%;
         }
         .cabecera__navegación__link{
-            font-size: 8.2px;
+            font-size: 8.3px;
             padding-left: 0%;
             padding-top: 30px;
             margin-left: 7px;
@@ -445,15 +412,21 @@ body{
 
 
 
+    .ofertass{
+        background-image: url(https://p4.wallpaperbetter.com/wallpaper/1006/72/31/black-wood-hd-wallpaper-wallpaper-preview.jpg);
+        background-repeat: repeat;   
+        background-size: cover;
+    }
+
 
 
     .productoss{
-        height: 85vh; 
         .titulo__productos{
             text-align: center;
-            margin-left: 150px;
             text-shadow: 2px 2px 2px rgb(179, 83, 83);
             color:rgb(139, 133, 122);
+            padding-right: 0.5px;
+            padding-top: 10px;
         }
         .carrousel{
             width: 80%;
@@ -469,10 +442,5 @@ body{
             font-size: 0px;
         }
     }
-
-
-
-
-
 
 }
